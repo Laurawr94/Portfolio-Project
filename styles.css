@@ -4,7 +4,6 @@
   --main-color: #1ab2a8;
   --secondary-color: #bdf1ec;
 }
-
 h1 {
   font-family: var(--main-font-family);
   text-align: center;
@@ -17,14 +16,23 @@ h2 {
   text-align: center;
   font-size: 30px !important;
 }
+h6 {
+  text-align: center;
+  text-transform: uppercase;
+}
 p {
   font-family: var(--secondary-font-family);
   text-align: center;
   font-size: 15px !important;
 }
+img {
+  border-radius: 500px;
+  border: 3px solid #1ab2a8;
+  box-shadow: 10px 5px 5px #636363;
+}
 .hero {
   background-color: var(--secondary-color);
-  margin: 100px auto;
+  margin: 100px auto 50px auto;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -80,4 +88,12 @@ p {
 .icon:hover {
   color: var(--main-color);
   background-color: white;
+}
+.photogrid {
+  margin: 0 auto;
+}
+.aboutInfo {
+  background-color: #e4f7f7;
+  max-width: 800px;
+  margin: 0 auto;
 }
