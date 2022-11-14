@@ -66,11 +66,17 @@ img {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  text-align: center;
 }
 .primary-link:hover {
   color: var(--main-color);
   background-color: var(--secondary-color);
+}
+.projects-button {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto;
 }
 .col-md-4 {
   text-align: center;
@@ -81,6 +87,7 @@ img {
   justify-content: center;
   margin-bottom: 50px;
   background-color: var(--main-color);
+  margin-top: 100px;
 }
 .icon {
   color: var(--secondary-color);
@@ -93,6 +100,7 @@ img {
   margin: 0 auto;
 }
 .aboutInfo {
+  text-align: center;
   background-color: #e4f7f7;
   max-width: 800px;
   margin: 20px auto;
