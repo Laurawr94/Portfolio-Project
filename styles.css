@@ -91,10 +91,10 @@ footer {
   text-align: center;
   text-decoration: underline;
   color: var(--main-color);
+  padding: 25px;
 }
 .Home-button:hover {
   color: var(--secondary-color);
-  padding: 10px;
   text-decoration: none;
 }
 .col-md-4 {
@@ -121,4 +121,20 @@ footer {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
+}
+.contactLinks {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 15px;
+}
+.contactLinks:hover {
+  text-decoration: underline;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: 700;
+  border: 4px solid #1ab2a8;
+  border-radius: 10px;
+  padding: 2px;
 }
